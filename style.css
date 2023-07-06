@@ -8,9 +8,9 @@ font-family: 'Roboto', sans-serif;
 }
 
 body{
-    background-color: rgb(75, 177, 177);
+    background-color: rgba(32, 33, 30, 0.913);
     font-size: 14px;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .resume{
@@ -23,16 +23,16 @@ body{
 
 .resume .left{
     width: 35%;
-    background-color:#34352f;
+    background-color:#26252d;
 }
 
 .resume .left .pic img{
-    padding: 0px;
+    padding: 10px;
     margin: 5px;
     width: 97%;
     display: block;
     border-radius: 50%;
-    
+    /*border: 2px solid white;*/
 }
 
 .resume .title{
@@ -45,7 +45,7 @@ body{
 }
 
 .resume .left .info{
-    color: #84838b;
+    color: #dcdaeb;
 }
 
 .resume .left .left_bottom{
@@ -61,8 +61,7 @@ padding: 15px 25px;
     border-bottom: 0;
 }
 
-.resume .left .namerole,
-.resume .left .profile {
+.resume .left .namerole{
     display: none;
 }
 
@@ -76,7 +75,7 @@ padding: 15px 25px;
 }
 
 .resume .namerole .role{
-    color: #84838b;
+    color: #dcdaeb;
 }
 
 .resume .left .contact .info:last-child{
@@ -124,6 +123,7 @@ padding: 15px 25px;
 }
 
 .resume .right .namerole .role{
+    color: #26252d;
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -225,11 +225,17 @@ padding: 15px 25px;
     }
 
     .resume .right .subtitle .year:before, 
-    .resume .right .subtitle .year:after{ display: none;}
+    .resume .right .subtitle .year:after { display: none;}
 
-    .resume .right .subtitle .subtitle_1{ width: 100%; 
-        padding: 0;}
+    .resume .right .item{
+        width: 100%;
+    }
 
-    .resume .right .interests .interest .int_icon {font-size: 24px;}
+    .resume .right .subtitle .subtitle_1 { width: 100%; 
+        padding: 0; margin: 1px;}
+
+    /* .resume .right .interests .interest .int_icon {font-size: 24px;}    
+    */
+
     
 }
