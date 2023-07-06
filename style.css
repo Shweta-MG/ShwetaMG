@@ -27,12 +27,12 @@ body{
 }
 
 .resume .left .pic img{
-    padding: 10px;
+    padding: 0px;
     margin: 5px;
     width: 97%;
     display: block;
     border-radius: 50%;
-    border: 2px solid white;
+    
 }
 
 .resume .title{
@@ -61,7 +61,8 @@ padding: 15px 25px;
     border-bottom: 0;
 }
 
-.resume .left .namerole{
+.resume .left .namerole,
+.resume .left .profile {
     display: none;
 }
 
@@ -196,6 +197,10 @@ padding: 15px 25px;
     .resume .right .namerole{ display: none;}
 
     .resume .left .namerole{display: block;}
+
+    .resume .right .profile {display: none;}
+
+    .resume .left .profile {display: block;}
 
     .resume{
     width: 95%;
